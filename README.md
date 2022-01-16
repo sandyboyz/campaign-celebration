@@ -5,6 +5,7 @@ Campaign Celebration API Example
 ## Requirements
 
 - Docker
+- Docker-Compose
 ## How to run this application
 Just run one single-command
 
