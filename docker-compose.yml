@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  api:
+    container_name: celebration_campaign_api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+    depends_on:
+      - postgres
+      - redis
+
+  postgres:
+    container_name: celebration_campaign_postgres
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+
+  redis:
+    container_name: celebration_campaign_redis
+    image: redis:latest
+    ports:
+      - 6379:6379
