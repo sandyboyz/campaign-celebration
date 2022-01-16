@@ -40,7 +40,7 @@ $ sh run.sh
 ## Question
 - Why Use Redis? Is Postgres itself enough for this case?
   
-  Redis use to use be able track submission photo within 10 minutes case. Redis here use not for cache solution but to became fast-queue system. The queue will able to delayed message to 10 minutes and evaluate the logic
+  Redis use to be able track submission photo within 10 minutes case. Redis here use not for cache solution but to became fast-queue system. The queue will able to delayed message to 10 minutes and evaluate the logic
   
 ## The API Documentation
 
