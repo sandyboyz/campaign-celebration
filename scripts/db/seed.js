@@ -44,31 +44,31 @@ function voucherGenerate(n) {
     {
       id: 1,
       customerId: 1,
-      totalSpent: 35000,
+      totalSpent: 35,
       totalSaving: 0,
     },
     {
       id: 2,
       customerId: 1,
-      totalSpent: 35000,
+      totalSpent: 35,
       totalSaving: 0,
     },
     {
       id: 3,
       customerId: 1,
-      totalSpent: 35000,
+      totalSpent: 35,
       totalSaving: 0,
     },
     {
       id: 4,
       customerId: 2,
-      totalSpent: 35000,
+      totalSpent: 35,
       totalSaving: 0,
     },
     {
       id: 5,
       customerId: 2,
-      totalSpent: 35000,
+      totalSpent: 35,
       totalSaving: 0,
     },
   ];
